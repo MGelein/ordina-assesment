@@ -15,14 +15,6 @@ import java.util.Vector;
 public final class OrdinaCase implements WordFrequencyAnalyzer{
 
 	/**
-	 * Entry point of the code, parsing command line parameters
-	 * @param args	the command line parameters given to the program
-	 */
-	public static void main(String[] args) {
-		//Generally not used, previously used during development to test some things, but now the tests show everything works
-	}
-	
-	/**
 	 * Creates Map of words and their respective counts for the given input text.
 	 * @param text	a given input string, consisting of words([a-zA-Z]) delimited by all other characters.
 	 * @return a map with the word statistics for each word (and thus their frequency) in the text.
