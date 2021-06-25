@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.Vector;
+
 /**
  * A simple test case for the Ordina interview, requiring string manipulation.
  * @author Mees Gelein
