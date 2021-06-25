@@ -15,18 +15,11 @@ import java.util.Vector;
 public final class OrdinaCase implements WordFrequencyAnalyzer{
 
 	/**
-	 * Entry point of the code, parsing command line parameters and creating the test class
+	 * Entry point of the code, parsing command line parameters
 	 * @param args	the command line parameters given to the program
 	 */
 	public static void main(String[] args) {
-		OrdinaCase ordinaCase = new OrdinaCase();
-		System.out.println(ordinaCase.calculateHighestFrequency(""));
-		List<WordFrequency> words = ordinaCase.calculateMostFrequentNWords("", 10);
-		for(WordFrequency wf: words) {
-			System.out.print(wf.getWord());
-			System.out.print(" occurs: ");
-			System.out.println(wf.getFrequency());
-		}
+		//Generally not used, previously used during development to test some things, but now the tests show everything works
 	}
 	
 	/**
